@@ -1,0 +1,1 @@
+find. -type f -iname"*~.*" -iname"#*#.*" -user $(whoami) -ok rm {} \;
